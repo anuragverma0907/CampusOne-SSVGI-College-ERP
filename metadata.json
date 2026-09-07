@@ -1,0 +1,7 @@
+{
+  "name": "CampusOne",
+  "description": "SSVGI College ERP & Management App for B.Tech and M.Tech students and faculty featuring attendance, fees, internal marks, timetable, gate pass, and AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
