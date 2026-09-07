@@ -1,22 +1,73 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 📱 CampusOne – SSVGI College ERP
 
-# Run and deploy your AI Studio app
+CampusOne is an Android-based College ERP application designed for SSVGI to provide students and faculty with easy access to important academic and campus-related services through a single mobile application.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/51279fa5-7d3d-4d79-9d6e-58bd9fae759d
+## 🚀 About The Project
 
-## Run Locally
+CampusOne aims to bring multiple college-related services together in one easy-to-use Android application.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+The application provides a centralized dashboard where users can access different services such as profile information, attendance-related features, academic information and other campus services.
 
+The project was developed as an Android application with a modern and user-friendly interface.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+---
+
+## ✨ Features
+
+### 👨‍🎓 Student Features
+- Student Dashboard
+- Student Profile
+- Academic Information
+- Attendance Information
+- Campus Services
+- Quick Access to Important Services
+
+### 👨‍🏫 Faculty Features
+- Faculty Profile
+- Faculty Class Attendance Register
+- Student Attendance Management
+- Attendance Status Management
+
+### 📱 Application Features
+- Modern Android UI
+- User-friendly Dashboard
+- Responsive Layout
+- Easy Navigation
+- College-specific Branding
+- Organized Service Modules
+
+---
+
+## 🛠️ Technologies Used
+
+- **Kotlin**
+- **Android Studio**
+- **Jetpack Compose**
+- **Material Design**
+- **Android SDK**
+- **Git & GitHub**
+
+---
+
+## 🏗️ Project Structure
+
+```text
+CampusOne/
+│
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/
+│           │       └── campusone/
+│           │
+│           ├── res/
+│           │
+│           └── AndroidManifest.xml
+│
+├── gradle/
+├── build.gradle
+├── settings.gradle
+└── README.md
